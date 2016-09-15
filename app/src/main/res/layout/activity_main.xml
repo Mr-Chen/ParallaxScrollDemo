@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.com.parallaxscrolldemo.ParallaxScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.com.parallaxscrolldemo.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="200dp"-->
+            <!--android:background="@drawable/item_background"-->
+            <!--android:gravity="center"-->
+            <!--android:text="PARALLAXED"-->
+            <!--android:textSize="50sp"-->
+            <!--tools:ignore="HardcodedText" />-->
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo视差效果Demo效果Demo"
+            android:textSize="26sp"
+            android:background="@android:color/white"
+            android:padding="5dp"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+
+</com.example.com.parallaxscrolldemo.ParallaxScrollView>
